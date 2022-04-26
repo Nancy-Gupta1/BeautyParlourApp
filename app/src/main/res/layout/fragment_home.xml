@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:orientation="vertical"
+    tools:context=".fragment.HomeFragment">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_250dp"
+                    android:layout_margin="@dimen/dimen_10dp"
+                    app:cardBackgroundColor="@color/black"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="@dimen/dimen_30dp">
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewpagerhome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <LinearLayout
+                        android:id="@+id/SliderDotsHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dimen_30dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:orientation="horizontal" />
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_10dp"
+                android:text="@string/offers"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_20sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerviewOffers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_10dp"
+                android:text="@string/services"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_20sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/glidRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_10dp"
+                android:text="Hair Specialist"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_20sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/linearRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"></androidx.recyclerview.widget.RecyclerView>
+
+<!--            <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:src="@drawable/ic_circularimage"-->
+<!--                app:civ_border_color="@color/white"-->
+<!--                app:civ_border_width="4dp" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:padding="@dimen/dimen_10dp"-->
+<!--                android:text="Hair Specialist"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="@dimen/dimen_18sp" />-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <androidx.appcompat.widget.AppCompatImageView-->
+<!--                    android:id="@+id/image2"-->
+<!--                    android:layout_width="@dimen/dimen_15dp"-->
+<!--                    android:layout_height="@dimen/dimen_15dp"-->
+<!--                    android:background="@drawable/ic_star_dark"-->
+<!--                    android:padding="@dimen/dimen_5dp" />-->
+
+<!--                <androidx.appcompat.widget.AppCompatImageView-->
+<!--                    android:id="@+id/image3"-->
+<!--                    android:layout_width="@dimen/dimen_15dp"-->
+<!--                    android:layout_height="@dimen/dimen_15dp"-->
+<!--                    android:background="@drawable/ic_star_dark" />-->
+
+<!--                <androidx.appcompat.widget.AppCompatImageView-->
+<!--                    android:id="@+id/image4"-->
+<!--                    android:layout_width="@dimen/dimen_15dp"-->
+<!--                    android:layout_height="@dimen/dimen_15dp"-->
+<!--                    android:background="@drawable/ic_star_dark" />-->
+
+<!--                <androidx.appcompat.widget.AppCompatImageView-->
+<!--                    android:id="@+id/image5"-->
+<!--                    android:layout_width="@dimen/dimen_15dp"-->
+<!--                    android:layout_height="@dimen/dimen_15dp"-->
+<!--                    android:background="@drawable/ic_star_dark" />-->
+
+<!--                <androidx.appcompat.widget.AppCompatImageView-->
+<!--                    android:id="@+id/image1"-->
+<!--                    android:layout_width="@dimen/dimen_15dp"-->
+<!--                    android:layout_height="@dimen/dimen_15dp"-->
+<!--                    android:layout_gravity="bottom|center"-->
+<!--                    android:layout_marginLeft="@dimen/dimen_5dp"-->
+<!--                    android:layout_marginRight="@dimen/dimen_5dp"-->
+<!--                    android:background="@drawable/ic_star_light"-->
+<!--                    android:gravity="center" />-->
+<!--            </LinearLayout>-->
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_10dp"
+                android:text="@string/our_brands"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_18sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/BrandsrecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="56dp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+

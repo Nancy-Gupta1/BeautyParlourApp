@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/relative"
+    android:layout_height="wrap_content">
+
+       <androidx.appcompat.widget.AppCompatImageView
+           android:id="@+id/MakeupImage"
+           android:layout_width="@dimen/dimen_150dp"
+           android:padding="@dimen/dimen_10dp"
+           android:src="@drawable/ic_services"
+           android:layout_height="@dimen/dimen_150dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/MakeupName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="@dimen/dimen_12sp"
+        android:layout_alignBottom="@+id/MakeupImage"
+        android:layout_marginLeft="@dimen/dimen_15dp"
+        android:layout_marginBottom="@dimen/dimen_20dp"
+        android:textColor="@color/white" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtMakeupName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:layout_toRightOf="@+id/MakeupImage"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/crossImage"
+            android:layout_width="@dimen/dimen_20dp"
+            android:layout_height="@dimen/dimen_20dp"
+            android:layout_below="@+id/txtMakeupName"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:src="@drawable/ic_doble_arrow"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/beauty_parlour"
+            android:id="@+id/txtappoint"
+            android:textSize="@dimen/dimen_14sp"
+            android:textAllCaps="false"
+            android:layout_toRightOf="@+id/MakeupImage"
+            android:layout_below="@+id/crossImage"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            android:textColor="@color/white" />
+
+
+   </RelativeLayout>
+
+
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/active_dot.xml" value="0.23854166666666668" />
+        <entry key="app/src/main/res/drawable/background_color.xml" value="0.153125" />
+        <entry key="app/src/main/res/drawable/bg_logout_layout.xml" value="0.153125" />
+        <entry key="app/src/main/res/drawable/bg_table.xml" value="0.153125" />
+        <entry key="app/src/main/res/drawable/button_bag.xml" value="0.153125" />
+        <entry key="app/src/main/res/drawable/circle_dot_black.xml" value="0.153125" />
+        <entry key="app/src/main/res/drawable/circle_dot_fill.xml" value="0.153125" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.153125" />
+        <entry key="app/src/main/res/drawable/ic_calendar.xml" value="0.153125" />
+        <entry key="app/src/main/res/drawable/ic_drawermenu.xml" value="0.153125" />
+        <entry key="app/src/main/res/drawable/non_active_dot.xml" value="0.153125" />
+        <entry key="app/src/main/res/drawable/rounded_circle.xml" value="0.153125" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.153125" />
+        <entry key="app/src/main/res/layout/activity_appoinment.xml" value="0.21875" />
+        <entry key="app/src/main/res/layout/activity_detail_apoorva.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/layout/activity_detail_deepali.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/activity_detail_diamond.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/activity_detail_engagement.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/activity_detail_hair_smoothening.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/activity_detail_haldi.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/activity_details_eye.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/activity_details_gold.xml" value="0.21897435897435896" />
+        <entry key="app/src/main/res/layout/activity_details_oily_scalp.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/layout/activity_details_photo.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/activity_details_taping.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/layout/activity_hair_color.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/layout/activity_hair_spa.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/activity_hair_style.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.21979166666666666" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/layout/activity_more.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/layout/activity_nail_art.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/layout/activity_navigation.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/layout/activity_registration.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/activity_screen_show.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.21875" />
+        <entry key="app/src/main/res/layout/color_spinner_layout.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/content_custom.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/content_navigation_bottom.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/custom_dialog.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/custom_progress_bar.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/custom_toolbar.xml" value="0.21875" />
+        <entry key="app/src/main/res/layout/fragment_about.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/layout/fragment_expert.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/fragment_feedback.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/fragment_logout.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/fragment_protfolio.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/fragment_reviews.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/fragment_sevice.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/fragment_tips.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/home_slider.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/item_adapter_linearview.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/item_appoinment_adapter.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/layout/item_date_adapter.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/item_detailmakeup_adapter.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/item_facial_adapter.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/item_hairspa_adapter.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/item_hairstyle_adapter.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/item_lips_adapter.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/layout/item_makeup_adapter.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/item_more_adapter.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/item_nailart_adapter.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/item_ourbrands_adapter.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/item_portfolio_adapter.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/item_reviews_adapter.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/item_service_adapter.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/item_tips_adapter.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.22239583333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

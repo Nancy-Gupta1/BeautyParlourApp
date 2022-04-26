@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beautyparlour">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyBaseApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BeautyParlourApp"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".DetailEngagementActivity"></activity>
+        <activity android:name=".DetailsBrideActivity" />
+        <activity android:name=".DetailHaldiActivity" />
+        <activity android:name=".DetailKirtiActivity" />
+        <activity android:name=".DetailDeepaliActivity" />
+        <activity android:name=".DetailRupaliActivity" />
+        <activity android:name=".DetailKrishnaActivity" />
+        <activity android:name=".DetailApoorvaActivity" />
+        <activity android:name=".DetailNikitaActivity" />
+        <activity android:name=".DetailSimranActivity" />
+        <activity android:name=".DetailNancyActivity" />
+        <activity android:name=".DetailNehaActivity" />
+        <activity android:name=".DetailKhusiActivity" />
+        <activity android:name=".DetailsMakeupandStylingActivity" />
+        <activity android:name=".DetailsPedicureActivity" />
+        <activity android:name=".DetailManicureActivity" />
+        <activity android:name=".DetailsWaxingActivity" />
+        <activity android:name=".DetailsThreadingActivity" />
+        <activity android:name=".DetailsItchyScalpActivity" />
+        <activity android:name=".DetailsAntiDandruffActivity" />
+        <activity android:name=".DetailsOilyScalpActivity" />
+        <activity android:name=".DetailsColouredHairActivity" />
+        <activity android:name=".DetailHairSmootheningActivity" />
+        <activity android:name=".AppoinmentActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsNailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsDigiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsTapingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsStampingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsSpongeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsPermanentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsBalayageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsOmbreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsHighLightsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsLowLightsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsGoldActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsPhotoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsCollagenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsAromatherapyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailDiamondActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsMermaidActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsBouquetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsVoluminousActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsCurlsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsTwistedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsFeatherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsLayersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailVCutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsUCutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailStraightActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsLipsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsEyeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailReceptionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsEngagementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailMakeUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NailArtActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HairColorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HairFacialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HairSpaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HairStyleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HairCutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MakeUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScreenShowActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.BeautyParlourApp.NoActionBar" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

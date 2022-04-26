@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/relative"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/hairCutImage"
+        android:layout_width="@dimen/dimen_150dp"
+        android:padding="@dimen/dimen_10dp"
+        android:src="@drawable/ic_services"
+        android:layout_height="@dimen/dimen_150dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/hairCutName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="@dimen/dimen_12sp"
+        android:layout_alignBottom="@+id/hairCutImage"
+        android:layout_marginLeft="@dimen/dimen_15dp"
+        android:layout_marginBottom="@dimen/dimen_20dp"
+        android:textColor="@color/white" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txthairCutName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:layout_toRightOf="@+id/hairCutImage"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/hairCutCrossImage"
+        android:layout_width="@dimen/dimen_20dp"
+        android:layout_height="@dimen/dimen_20dp"
+        android:layout_below="@+id/txthairCutName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:src="@drawable/ic_doble_arrow"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/book_an_appoinment"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:id="@+id/txthairCutappoint"
+        android:textAllCaps="false"
+        android:textSize="@dimen/dimen_14sp"
+        android:layout_toRightOf="@+id/hairCutImage"
+        android:layout_below="@+id/hairCutCrossImage"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        android:background="@drawable/button_bag"
+        android:textColor="@color/white" />
+</RelativeLayout>
+
+
+

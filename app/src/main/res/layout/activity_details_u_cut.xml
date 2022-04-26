@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_color"
+    tools:context=".DetailsUCutActivity">
+
+    <include layout="@layout/custom_toolbar"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/detailMakeupviewpager"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/detailMakeupviewpagerSliderDotsHome"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_30dp"
+            android:layout_alignBottom="@+id/detailMakeupviewpager"
+            android:layout_marginBottom="@dimen/dimen_20dp"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" />
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_20dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="U cut"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen_20sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_20dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="@string/U_hair_detail"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen_18sp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/book_an_appoinment"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        android:paddingRight="@dimen/dimen_20dp"
+        android:paddingLeft="@dimen/dimen_20dp"
+        android:textSize="@dimen/dimen_12sp"
+        android:layout_marginBottom="@dimen/dimen_10dp"
+        android:textAllCaps="false"
+        android:id="@+id/txtUappoint"
+        android:layout_gravity="center"
+        android:textColor="@color/white" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:orientation="vertical"
+    tools:context=".DetailKhusiActivity">
+
+    <include layout="@layout/custom_toolbar" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/dimen_400dp"
+                android:layout_height="@dimen/dimen_200dp"
+                app:cardBackgroundColor="@color/light_color"
+                android:layout_margin="@dimen/dimen_5dp"
+                app:cardCornerRadius="@dimen/dimen_10dp"
+                app:cardElevation="@dimen/dimen_30dp">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen_400dp"
+                    android:layout_height="@dimen/dimen_200dp"
+                    android:scaleType="fitXY"
+                    android:id="@+id/tipsImage"/>
+
+<!--                <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tipsName"
+                android:fontFamily="@font/montserratregular"
+                android:padding="@dimen/dimen_20dp"
+                android:text="@string/action_bridal"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_20sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserratregular"
+                android:padding="@dimen/dimen_20dp"
+                android:text="@string/bridal_details"
+                android:id="@+id/detailsName"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_18sp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

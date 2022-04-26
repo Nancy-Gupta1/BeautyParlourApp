@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/relative"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/haircolorImage"
+        android:layout_width="@dimen/dimen_150dp"
+        android:padding="@dimen/dimen_10dp"
+        android:src="@drawable/ic_services"
+        android:layout_height="150dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/haircolorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/haircolorImage"
+        android:layout_marginBottom="@dimen/dimen_20dp"
+        android:text="Name"
+        android:layout_marginLeft="@dimen/dimen_15dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen_12sp" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txthaircolorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:layout_toRightOf="@+id/haircolorImage"
+        android:textColor="@color/white" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/haircolorcrossImage"
+        android:layout_width="@dimen/dimen_20dp"
+        android:layout_height="@dimen/dimen_20dp"
+        android:layout_below="@+id/txthaircolorName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:src="@drawable/ic_doble_arrow"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beautiful"
+        android:textSize="@dimen/dimen_14sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:id="@+id/txthaircolorappoint"
+        android:layout_toRightOf="@+id/haircolorImage"
+        android:layout_below="@+id/haircolorcrossImage"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
+
+
+

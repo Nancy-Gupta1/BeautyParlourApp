@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">BeautyParlourApp</string>
+    <string name="dulhan">Dulhan</string>
+    <string name="beauty_parlour">Beauty Parlour</string>
+    <string name="sign_in_to_your_account">Sign in to your account!</string>
+    <string name="username">Username</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="confirmpassword">ConfirmPassword</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="sign_in">Sign in</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="skip">Skip</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_continue">Continue</string>
+    <string name="make_up_artist">Make up artist</string>
+    <string name="password">Password</string>
+    <string name="choose_hair_stylist">Choose hair stylist</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="name">Name</string>
+    <string name="action_bridal">Bridal Make Up</string>
+    <string name="please_enter_your_email_address">Please enter your email address</string>
+    <string name="to_reset_your_password">to reset your password</string>
+    <string name="action_forgot">Forgot Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="log_out">Logout</string>
+    <string name="are_you_sure_you_want_to_log_out">Are you sure you want to log out?</string>
+    <string name="action_reception">Reception make up</string>
+    <string name="action_eye">Eye make up</string>
+    <string name="action_lips">Lips</string>
+    <string name="action_hairStyle">Hair Style</string>
+    <string name="twisted_side_bun">Twisted side bun</string>
+    <string name="book_an_appoinment">Book an appoinment</string>
+    <string name="action_haircolor">Hair Color</string>
+    <string name="lowlights">Low Lights</string>
+    <string name="bridal_make_up">Bridal make up</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="beautiful">Beautiful</string>
+    <string name="Lowlights_haicolor">Lowlights are dark pieces that are woven into the hair that introduce more contrast, generally used as a quick-fix for solid hair color from over highlighting,Hair coloring, or hair dyeing, is the practice of changing the hair color. The main reasons for this are cosmetic: to cover gray or white hair, to change to a color regarded as more fashionable or desirable, or to restore the original hair color after it has been discolored by hairdressing processes or sun bleaching.</string>
+    <string name="straight_hair_cut">Straight hair cut</string>
+    <string name="eye_details">To make eyes look big and bold, the trick is to create depth with your eyeshadow. First apply a lighter-colored shadow all over your eyelid. Contrary to popular belief, makeup is not something that conceals and changes how a person looks, in fact, different types of makeup looks are used to highlight and accentuate the real beauty of a person.HD makeup manages to appear invisible, feels feather light and hides all the flaws including uneven texture, blemishes, scars and pores. The products used in HD makeup are designed in a way that they perfectly blend with the skin</string>
+    <string name="lips_details">This effect is driven by women’s desire to attract mates with resources and depends on the perceived mate attraction function served by these products. To make eyes look big and bold, the trick is to create depth with your eyeshadow. First apply a lighter-colored shadow all over your eyelid. Contrary to popular belief, makeup is not something that conceals and changes how a person looks, in fact, different types of makeup looks are used to highlight and accentuate the real beauty of a person.HD makeup manages to appear invisible, feels feather light and hides all the flaws including uneven texture, blemishes, scars and pores. The products used in HD makeup are designed in a way that they perfectly blend with the skin</string>
+    <string name="straight_hair_detail">If your hair is fine and straight, the greatest thing you can do is rock a blunt haircut. Excessive layers will only cause fine hair to look thinner, so resist the urge to get "choppy layers for movement." By keeping all the weight at the bottom, your locks will appear thicker and fuller instantly.A straight cut is easy to maintain for any length of hair. providing plenty of layers, while keeping your hair a more even length throughout, with only a slight difference between the middle and sides. Basically, the ends of your hair will look as though they form a “U” shape!. Hair which is short, medium or long can be styled according to the occasion, as required</string>
+    <string name="bridal_details">Contrary to popular belief, makeup is not something that conceals and changes how a person looks, in fact, different types of makeup looks are used to highlight and accentuate the real beauty of a person.HD makeup manages to appear invisible, feels feather light and hides all the flaws including uneven texture, blemishes, scars and pores. The products used in HD makeup are designed in a way that they perfectly blend with the skin</string>
+    <string name="twisted_bun">The hair is formed into twists that begin at the sides and feed into the bun.while keeping your hair a more even length throughout, with only a slight difference between the middle and sides. Basically, the ends of your hair will look as though they form a bun shape!. Several large pieces of hair are pulled out to linger at the nape of the neck.A hairstyle, hairdo, or haircut refers to the styling of hair, usually on the human scalp. Sometimes, this could also mean an editing of facial or body hair. The fashioning of hair can be considered an aspect of personal grooming, fashion, and cosmetics, although practical, cultural, and popular considerations also influence some hairstyles</string>
+    <string name="U_hair_detail">A U-shaped haircut is a subtler option, providing plenty of layers, while keeping your hair a more even length throughout, with only a slight difference between the middle and sides. Basically, the ends of your hair will look as though they form a “U” shape!. If your hair is fine and straight, the greatest thing you can do is rock a blunt haircut. Excessive layers will only cause fine hair to look thinner, so resist the urge to get "choppy layers for movement." By keeping all the weight at the bottom, your locks will appear thicker and fuller instantly.</string>
+    <string name="V_hair_detail">If your hair is fine and straight, the greatest thing you can do is rock a blunt haircut. Excessive layers will only cause fine hair to look thinner, so resist the urge to get "choppy layers for movement." By keeping all the weight at the bottom, your locks will appear thicker and fuller instantly.A V-cut hair is a type of haircut that is heavily layered at a sharp angle, forming a “V” shaped point at the ends. </string>
+    <string name="layers_hair_detail">Layered hair is a hairstyle that gives the illusion of length and volume using long hair for the illusion of length and short hair for volume, as an easy style to manage.the greatest thing you can do is rock a blunt haircut. Excessive layers will only cause fine hair to look thinner, so resist the urge to get "choppy layers for movement."If your hair is fine and straight, the greatest thing you can do is rock a blunt haircut. Excessive layers will only cause fine hair to look thinner, so resist the urge to get "choppy layers for movement." By keeping all the weight at the bottom, your locks will appear thicker and fuller instantly.</string>
+    <string name="feather_hair_detail">Feathering is a technique used to give texture to your hair, shaping the end of your locks. It focuses more on the technique hairstylists use, as they hold the scissors at a 90-degree angle against the hair and cut in a V-shape.the greatest thing you can do is rock a blunt haircut. Excessive layers will only cause fine hair to look thinner, so resist the urge to get "choppy layers for movement."If your hair is fine and straight, the greatest thing you can do is rock a blunt haircut. Excessive layers will only cause fine hair to look thinner, so resist the urge to get "choppy layers for movement." By keeping all the weight at the bottom, your locks will appear thicker and fuller instantly.</string>
+    <string name="Mermaid_detail">It just involves using smaller, thinner strands of hair to create the braid and leaving unplaited hair showing through the spaces.The oldest known reproduction of hair braiding lies back about 30,000 years: the Venus of Willendorf, now known in academia as the Woman of Willendorf, of a female figurine from the Paleolithic, estimated to have been made between about 28,000 and 25,000 BCE.[6] The Venus of Brassempouy counts about 25,000 years old and indisputably shows hairstyling.</string>
+    <string name="Twisted_detail">Gather the rest of your hair into a low ponytail.The oldest known reproduction of hair braiding lies back about 30,000 years: the Venus of Willendorf, now known in academia as the Woman of Willendorf, of a female figurine from the Paleolithic, estimated to have been made between about 28,000 and 25,000 BCE.[6] The Venus of Brassempouy counts about 25,000 years old and indisputably shows hairstyling.</string>
+    <string name="curls_detail">curls hair into a low ponytail.The hair is formed into twists that begin at the sides and feed into the bun.while keeping your hair a more even length throughout, with only a slight difference between the middle and sides. Basically, the ends of your hair will look as though they form a bun shape!. Several large pieces of hair are pulled out to linger at the nape of the neck.A hairstyle, hairdo, or haircut refers to the styling of hair, usually on the human scalp.</string>
+    <string name="bouquet_details">After a diamond facial (that includes gel massage, face mask applications, scrubbing), you will see that the skin has brightened up.For their captivating look, freshness and eye-pleasing charm, floral buns are undoubtedly the most favored go-to for brides for their bridal hairstyles.For their captivating look, freshness and eye-pleasing charm, floral buns are undoubtedly the most favored go-to for brides for their bridal hairstyles</string>
+    <string name="voluminous_detail">For their captivating look, freshness and eye-pleasing charm, floral buns are undoubtedly the most favored go-to for brides for their bridal hairstyles.The information was not furnished by the public authority as the material sought was excessive and steps to furnish this voluminous information would affect regular functioning of the office</string>
+    <string name="diamond_facial_detail">After a diamond facial (that includes gel massage, face mask applications, scrubbing), you will see that the skin has brightened up. This facial is known for its skin lightening effects.They found that faces account for more of the variation among ratings than do bodies; in other words, faces are more important. For women rating men, 52 per cent of the attractiveness score was made up by the face rating, while for bodies it was 24 per cent.</string>
+    <string name="aromatherapy_facial_detail">An aromatherapy facial involves the use of a variety of essential oils. The essential oils are chosen according to your skin type.Shaving your face removes hair, debris, excess oil, and dead skin cells, which can brighten the look of skin. This helps makeup go on smoothly and last longer. Self-confidence.Face Razor is an Exfoliation tool that uses a single blade to safely remove the buildup of dead skin and unwanted facial hair (peach fuzz) that make your complexion appear dull and flaky.</string>
+    <string name="collagen_facial_detail">A collagen facial is essentially a multi-step skin treatment that is one of the best ways to take care of your skin as it unclogs your pores and deep cleans to remove blackheads, cleanses, exfoliates and nourishes the skin, promoting a clear, well-hydrated complexion which can help your skin look younger.Face Razor is an Exfoliation tool that uses a single blade to safely remove the buildup of dead skin and unwanted facial hair (peach fuzz) that make your complexion appear dull and flaky.Face Razor is an Exfoliation tool that uses a single blade to safely remove the buildup of dead skin and unwanted facial hair (peach fuzz) that make your complexion appear dull and flaky.</string>
+    <string name="Photofacial_facial_detail">A Photofacial, or laser skin rejuvenation, is a state-of-the-art skin treatment that stimulates the production of collagen to improve the effects of sun damage, rosacea, fine lines, large pores, and more.Face Razor is an Exfoliation tool that uses a single blade to safely remove the buildup of dead skin and unwanted facial hair (peach fuzz) that make your complexion appear dull and flaky.They found that faces account for more of the variation among ratings than do bodies; in other words, faces are more important. For women rating men, 52 per cent of the attractiveness score was made up by the face rating, while for bodies it was 24 per cent.</string>
+    <string name="GOLD_facial_detail">GOLD PEEL OF MASK:This peel off mask is enriched with Gold Bhasma &amp; neem that exfoliates the dead cells and helps maintain skin pH balance.They found that faces account for more of the variation among ratings than do bodies; in other words, faces are more important. For women rating men, 52 per cent of the attractiveness score was made up by the face rating, while for bodies it was 24 per cent.They found that faces account for more of the variation among ratings than do bodies; in other words, faces are more important. For women rating men, 52 per cent of the attractiveness score was made up by the face rating, while for bodies it was 24 per cent.</string>
+    <string name="Highlights_colour">Highlights are simply pieces of hair that are lighter than your natural color, explains Redken Artist George Garcia are simply pieces of hair that are lighter than your natural color, explains Redken Artist George Garcia.Hair coloring, or hair dyeing, is the practice of changing the hair color. The main reasons for this are cosmetic: to cover gray or white hair, to change to a color regarded as more fashionable or desirable, or to restore the original hair color after it has been discolored by hairdressing processes or sun bleaching.</string>
+    <string name="Ombre_color">Hair coloring, or hair dyeing, is the practice of changing the hair color. The main reasons for this are cosmetic: to cover gray or white hair, to change to a color regarded as more fashionable or desirable, or to restore the original hair color after it has been discolored by hairdressing processes or sun bleaching.Ombr hair is a colour technique of seamless graduation from darker to lighter, whereas balayage is a highlighting technique</string>
+    <string name="Permanent_colour">Hair coloring, or hair dyeing, is the practice of changing the hair color. The main reasons for this are cosmetic: to cover gray or white hair, to change to a color regarded as more fashionable or desirable, or to restore the original hair color after it has been discolored by hairdressing processes or sun bleaching.Hair coloring, or hair dyeing, is the practice of changing the hair color. The main reasons for this are cosmetic: to cover gray or white hair, to change to a color regarded as more fashionable or desirable, or to restore the original hair color after it has been discolored by hairdressing processes or sun bleaching.Permanent haircolor contain chemicals that remove color from your strands as well as pigments that change your hair current color. </string>
+    <string name="balayage_color">Hair coloring, or hair dyeing, is the practice of changing the hair color. The main reasons for this are cosmetic: to cover gray or white hair, to change to a color regarded as more fashionable or desirable, or to restore the original hair color after it has been discolored by hairdressing processes or sun bleaching.balayage is actually a French word meaning sweep on a hair lightener to create highlights</string>
+    <string name="nail_sponge_bobbing">Nail art is a creative activity that draws pictures or designs fingernails. It a type of art. These days fingernails and toenails are seen by some as important points of beauty..Nail art is a creative way to paint, decorate, enhance, and embellish the nails. It is a type of artwork that can be done on fingernails and toenails, usually after manicures or pedicures. ... Types of manicures can vary from polish on natural nails to dipping powder and acrylic nails. Usually, the base coat is applied, and it is left to dry, and then sponge with nail polish is used and applied on the nails</string>
+    <string name="nail_details">Nail art is a creative way to paint, decorate, enhance, and embellish the nails. It is a type of artwork that can be done on fingernails and toenails, usually after manicures or pedicures. ... Types of manicures can vary from polish on natural nails to dipping powder and acrylic nails.Nail art is a creative way to paint, decorate, enhance, and embellish the nails. It is a type of artwork that can be done on fingernails and toenails, usually after manicures or pedicures. ... Types of manicures can vary from polish on natural nails to dipping powder and acrylic nails. Usually, the base coat is applied, and it is left to dry, and then sponge with nail polish is used and applied on the nails</string>
+    <string name="naildigi_details">Nail art is a creative way to paint, decorate, enhance, and embellish the nails. It is a type of artwork that can be done on fingernails and toenails, usually after manicures or pedicures. ... Types of manicures can vary from polish on natural nails to dipping powder and acrylic nails.Nail art is a creative way to paint, decorate, enhance, and embellish the nails. It is a type of artwork that can be done on fingernails and toenails, usually after manicures or pedicures. ... Types of manicures can vary from polish on natural nails to dipping powder and acrylic nails. Usually, the base coat is applied, and it is left to dry, and then sponge with nail polish is used and applied on the nails</string>
+    <!--    <string name="nail_sponge_bobbing"></string>-->
+    <string name="v_cut">V cut</string>
+    <string name="layers_cut">Layers cut</string>
+    <string name="feather_cut">Feather cut</string>
+    <string name="mermaid_frenchbraid">Mermaid FrenchBraid</string>
+    <string name="curls_and_flowers">Curls and flowers</string>
+    <string name="voluminous_bun">Voluminous Bun</string>
+    <string name="bouquet_bun">Bouquet Bun</string>
+    <string name="aromatherapy_facial">Aromatherapy facial</string>
+    <string name="collagen_facial">Collagen facial</string>
+    <string name="photo_facial">Photo facial</string>
+    <string name="gold_radiance_facial">Gold radiance facial</string>
+    <string name="highlights">HighLights</string>
+    <string name="ombre">Ombre</string>
+    <string name="balayage">Balayage</string>
+    <string name="permanent_hair_color">Permanent Hair Color</string>
+    <string name="sponge_bobbing">Sponge Bobbing</string>
+    <string name="address">Address</string>
+    <string name="our_brands">Our brands</string>
+    <string name="hair_smoothening">Hair Smoothening</string>
+    <string name="number">Number</string>
+    <string name="opening_closing">Opening/Closing</string>
+    <string name="loction">Loction</string>
+    <string name="offers">Offers</string>
+    <string name="stamping_looks_great">Stamping Looks Great</string>
+    <string name="digi_world_nail_art">Digi World Nail Art</string>
+    <string name="services">Services</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    
+    <string name="app_array">ColoredSpinner</string>
+    <string-array name="Spinner_Items">
+        <item>Khusi</item>
+        <item>Neha</item>
+        <item>Nancy</item>
+        <item>Simran</item>
+        <item>Nikita</item>
+        <item>Apoorva</item>
+        <item>Krishna</item>
+        <item>Rupali</item>
+        <item>Deepali</item>
+        <item>Kirti</item>
+    </string-array>
+</resources>
+

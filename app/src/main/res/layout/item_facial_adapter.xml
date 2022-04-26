@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/relative"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/facialImage"
+        android:layout_width="150dp"
+        android:padding="@dimen/dimen_10dp"
+        android:src="@drawable/ic_services"
+        android:layout_height="150dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/facialName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="12sp"
+        android:layout_alignBottom="@+id/facialImage"
+        android:layout_marginLeft="@dimen/dimen_15dp"
+        android:layout_marginBottom="@dimen/dimen_30dp"
+        android:textColor="@color/white" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtfacialName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/facialImage"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/facialCrossImage"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/txtfacialName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:src="@drawable/ic_doble_arrow"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beautiful"
+        android:textSize="@dimen/dimen_14sp"
+        android:textAllCaps="false"
+        android:id="@+id/txtfacialappoint"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:layout_toRightOf="@+id/facialImage"
+        android:layout_below="@+id/facialCrossImage"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/portfolio"
+    android:layout_margin="@dimen/dimen_4dp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageProt"
+        android:layout_width="@dimen/dimen_150dp"
+        android:scaleType="fitXY"
+        android:layout_height="wrap_content"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/namePort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABCD"
+        android:textSize="@dimen/dimen_20sp"
+        android:textColor="@color/white" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

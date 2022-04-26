@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageViewHome"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="@dimen/dimen_250dp"
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txttitleHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:layout_marginTop="@dimen/dimen_120dp"
+        android:paddingTop="@dimen/dimen_10dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/dimen_30dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimen_18sp" />
+
+<!--    <androidx.appcompat.widget.AppCompatTextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Beautiful"-->
+<!--        android:paddingTop="@dimen/dimen_5dp"-->
+<!--        android:paddingRight="@dimen/dimen_30dp"-->
+<!--        android:paddingLeft="@dimen/dimen_30dp"-->
+<!--        android:paddingBottom="@dimen/dimen_5dp"-->
+<!--        android:layout_marginLeft="@dimen/dimen_20dp"-->
+<!--        android:id="@+id/txthomeappoint"-->
+<!--        android:layout_below="@+id/txttitleHome"-->
+<!--        android:layout_marginBottom="@dimen/dimen_30dp"-->
+<!--        android:background="@drawable/button_bag"-->
+<!--        android:textColor="@color/white" />-->
+
+</RelativeLayout>
